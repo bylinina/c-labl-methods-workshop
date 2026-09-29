@@ -1,0 +1,25 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Models, caches and large outputs (put these on the HF Hub instead)
+models/
+checkpoints/
+hf_cache/
+*.safetensors
+*.bin
+*.pt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
