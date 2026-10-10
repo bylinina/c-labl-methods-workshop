@@ -18,21 +18,21 @@ The practical sessions run in the browser, with no local installation; no prior 
 
 **Tuesday 20 October** · Room U06, Nedre Lysthus
 
-| Time | Block |
+| Time | Session |
 |---|---|
-| 10:00–10:50 | 1. From prediction to transformers |
-| 11:05–12:00 | 2. Training, scale, data |
-| 13:00–13:50 | 3. Hands-on: meet a model |
-| 14:05–15:00 | 4. Measures I: surprisal and entropy |
+| 10:00–10:50 | **Lecture:** LLM anatomy and computation: tokens, probabilities, attention, decoding |
+| 11:05–12:00 | **Practical:** First contact: text generation; surprisal (for real data) |
+| 13:00–13:50 | **Lecture:** Training and post-training: training objective, loss, data and scale, instruction tuning; evaluation |
+| 14:05–15:00 | **Practical:** Train a tiny GPT; evaluate throughout training (learning trajectory) |
 
 **Thursday 22 October** · Room 2.072, ILP building
 
-| Time | Block |
+| Time | Session |
 |---|---|
-| 10:00–10:50 | 5. Measures II: minimal pairs and representations |
-| 11:05–12:00 | 6. Language models as learners |
-| 13:00–13:50 | 7. Observing what a model has learned |
-| 14:05–15:00 | 8. Language similarity, and wrap-up |
+| 10:00–10:50 | **Lecture:** LLMs vs humans: input, grounding, environment, multilinguality |
+| 11:05–12:00 | **Practical:** Beyond surprisal: entropy, embeddings, similarity etc. |
+| 13:00–13:50 | **Lecture:** Opening the black box: interpretability |
+| 14:05–15:00 | **Practical:** Probing, attribution, representational similarity |
 
 Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days are also streamed on Teams.
 
