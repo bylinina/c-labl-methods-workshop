@@ -1,0 +1,7 @@
+sentence,word,context_length,item,condition
+The horse raced past the barn fell.,fell.,6,1,garden path
+The horse that was raced past the barn fell.,fell.,8,1,control
+She spread the butter on her bread.,bread.,6,2,expected
+She spread the butter on her socks.,socks.,6,2,unexpected
+Han smurte smøret på brødet.,brødet.,4,3,expected
+Han smurte smøret på sokkene.,sokkene.,4,3,unexpected
