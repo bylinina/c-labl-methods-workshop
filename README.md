@@ -36,6 +36,14 @@ The practical sessions run in the browser, with no local installation; no prior 
 
 Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days are also streamed on Teams.
 
+## Materials
+
+| Session | Slides | Colab notebooks |
+|---|---|---|
+| Day 1 · morning | [Slides](https://docs.google.com/presentation/d/18EjiQ3Q95rrcwtfLRTsic0BgHEVNBNwecFZuTvbXR5E/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/15pMrcr9aITF3wIolI6N0RMB9KcDd_TaU?usp=sharing) · [R](https://colab.research.google.com/drive/1rwPdTQMDvfN_4N8S4QHfduX4qLvSfG7P?usp=sharing) |
+
+To run a notebook, open it and choose **File → Save a copy in Drive**, then work in your copy.
+
 ## Bringing your own data
 
 The notebooks can read your own stimuli from a simple CSV file. See [`data/README.md`](data/README.md) for the format.
