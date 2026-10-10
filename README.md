@@ -22,7 +22,7 @@ The practical sessions run in the browser, with no local installation; no prior 
 |---|---|
 | 10:00–10:50 | **Lecture:** LLM anatomy and computation: tokens, probabilities, attention, decoding |
 | 11:05–12:00 | **Practical:** First contact: text generation; surprisal (for real data) |
-| 13:00–13:50 | **Lecture:** Training and post-training: training objective, loss, data and scale, instruction tuning; evaluation |
+| 13:00–13:50 | **Lecture:** Training and post-training: training objective, loss, data and scale; evaluation |
 | 14:05–15:00 | **Practical:** Train a tiny GPT; evaluate throughout training (learning trajectory) |
 
 **Thursday 22 October** · Room 2.072, ILP building
@@ -41,6 +41,7 @@ Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days ar
 | Session | Slides | Colab notebooks |
 |---|---|---|
 | Day 1 · morning | [Slides](https://docs.google.com/presentation/d/18EjiQ3Q95rrcwtfLRTsic0BgHEVNBNwecFZuTvbXR5E/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/15pMrcr9aITF3wIolI6N0RMB9KcDd_TaU?usp=sharing) · [R](https://colab.research.google.com/drive/1rwPdTQMDvfN_4N8S4QHfduX4qLvSfG7P?usp=sharing) |
+| Day 1 · afternoon | [Slides](https://docs.google.com/presentation/d/1IONS_Z85dJ4osFSgYW51RFecN9V9B0Av6ksrJq_zcfU/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/1po-O-olZlpcCI72MNbh1R3la7GrX8DNR?usp=sharing) |
 
 To run a notebook, open it and choose **File → Save a copy in Drive**, then work in your copy.
 
