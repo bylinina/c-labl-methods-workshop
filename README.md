@@ -29,8 +29,8 @@ The practical sessions run in the browser, with no local installation; no prior 
 
 | Time | Session |
 |---|---|
-| 10:00–10:50 | **Lecture:** LLMs vs humans: input, grounding, environment, multilinguality |
-| 11:05–12:00 | **Practical:** Beyond surprisal: entropy, embeddings, similarity etc. |
+| 10:00–10:50 | **Lecture:** Models as learners: input, controlled rearing, grounding |
+| 11:05–12:00 | **Practical:** Controlled rearing with tiny models: train on changed word order; Japanese, Arabic or Norwegian first, then English |
 | 13:00–13:50 | **Lecture:** Opening the black box: interpretability |
 | 14:05–15:00 | **Practical:** Probing, attribution, representational similarity |
 
