@@ -43,6 +43,7 @@ Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days ar
 | Day 1 · morning | [Slides](https://docs.google.com/presentation/d/18EjiQ3Q95rrcwtfLRTsic0BgHEVNBNwecFZuTvbXR5E/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/15pMrcr9aITF3wIolI6N0RMB9KcDd_TaU?usp=sharing) · [R](https://colab.research.google.com/drive/1rwPdTQMDvfN_4N8S4QHfduX4qLvSfG7P?usp=sharing) |
 | Day 1 · afternoon | [Slides](https://docs.google.com/presentation/d/1IONS_Z85dJ4osFSgYW51RFecN9V9B0Av6ksrJq_zcfU/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/1po-O-olZlpcCI72MNbh1R3la7GrX8DNR?usp=sharing) |
 | Day 2 · morning | [Slides](https://docs.google.com/presentation/d/1Ov44Y3gPWT0BVax5FG5wc1vxbtd_rJnXqKh6OEOkIwA/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/1GhoGQAQI_ktxzxZr_v9jKSJXXcTMkf-O?usp=sharing) |
+| Day 2 · afternoon | [Slides](https://docs.google.com/presentation/d/18Oha_la639PtLh-gJ8srRIZmJeTqQxfMMrlptFICJFQ/edit?usp=sharing) | [Python](https://colab.research.google.com/drive/1dZ2rKm1dmPtClEKTl7HtoZNcT9CqNM-8?usp=sharing) |
 
 To run a notebook, open it and choose **File → Save a copy in Drive**, then work in your copy.
 
