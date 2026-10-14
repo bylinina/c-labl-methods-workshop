@@ -3,6 +3,7 @@
 *Language models for linguistic research* · C-LaBL Methods Workshop, UiT The Arctic University of Norway, Tromsø · [Lisa Bylinina](https://bylinina.github.io)
 
 **Morning:** models as learners: input, controlled rearing, multilinguality, grounding; controlled rearing with tiny models.
+
 **Afternoon:** opening the black box: entropy, attribution, probing and intervening, representational similarity and the logit lens.
 
 This list has every source cited on the Day 2 slides and in the two Day 2 notebooks, grouped by topic. Start with the first section; the rest is there to look things up. Studies with human participants that the slides cite are listed separately at the end of each half-day.

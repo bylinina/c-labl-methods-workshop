@@ -3,6 +3,7 @@
 *Language models for linguistic research* · C-LaBL Methods Workshop, UiT The Arctic University of Norway, Tromsø · [Lisa Bylinina](https://bylinina.github.io)
 
 **Morning:** LLM anatomy and computation (tokens, probabilities, attention, decoding); surprisal for real data.
+
 **Afternoon:** training and post-training (objective, loss, data and scale); evaluation; training data and generalisation.
 
 This list has every source cited on the Day 1 slides and in the two Day 1 notebooks, grouped by topic. Start with the first section; the rest is there to look things up.
