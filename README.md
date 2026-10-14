@@ -14,8 +14,6 @@ The practical sessions run in the browser, with no local installation, and are s
 
 ## Schedule
 
-*Preliminary — may change.*
-
 **Tuesday 20 October** · Room U06, Nedre Lysthus
 
 | Time | Session |
