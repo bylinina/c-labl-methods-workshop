@@ -2,7 +2,7 @@
 
 Materials for the C-LaBL Methods Workshop (Center for Language, Brain and Learning), UiT The Arctic University of Norway, Tromsø, 20 and 22 October 2026.
 
-Taught by [Lisa Bylinina](https://bylinina.github.io) (Utrecht University).
+Taught by [Lisa Bylinina](https://bylinina.github.io) (Utrecht University) · bylinina@gmail.com
 
 ## About the workshop
 
@@ -10,7 +10,7 @@ Language models are appearing more and more often in experimental and theoretica
 
 The second part turns to research practice. We will go through the measures that can be extracted from a model, how to obtain them and how they can be used, working through concrete cases from recent research with an emphasis on methods. We will view language models as learners with controllable linguistic and extralinguistic experience. This allows us to design targeted manipulations of the learning environment — remove a construction from the input, change word order, add or withhold visual grounding — and observe the consequences. This raises the question of observation: how to measure, in a faithful and interpretable way, what a model has learned about language as a result of training — by probing its internal representations, and by modelling its behaviour as a function of its experience. Examining those representations also gives us a way to quantify language similarity on different levels.
 
-The practical sessions run in the browser, with no local installation; no prior experience with Python is required. Participants are welcome to bring their own questions and data.
+The practical sessions run in the browser, with no local installation, and are set up to be as compatible as possible with already existing workflows; no prior experience with Python is required. Participants are welcome to bring their own questions and data.
 
 ## Schedule
 
@@ -31,10 +31,20 @@ The practical sessions run in the browser, with no local installation; no prior 
 |---|---|
 | 10:00–10:50 | **Lecture:** Models as learners: input, controlled rearing, grounding |
 | 11:05–12:00 | **Practical:** Controlled rearing with tiny models: train on changed word order; Japanese, Arabic or Norwegian first, then English |
-| 13:00–13:50 | **Lecture:** Opening the black box: interpretability |
-| 14:05–15:00 | **Practical:** Probing, attribution, representational similarity |
+| 13:00–13:50 | **Lecture:** Opening the black box: entropy, attribution, probing, similarity |
+| 14:05–15:00 | **Practical:** Entropy, attribution, probing, representational similarity |
 
 Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days are also streamed on Teams.
+
+## Before the workshop
+
+Nothing needs installing: everything runs in the browser, in Google Colab.
+
+1. **Google account.** Sign in at [colab.research.google.com](https://colab.research.google.com). A personal Google account works best; a university one only if your university allows Colab.
+2. **Hugging Face account and token.** Create a free account at [huggingface.co/join](https://huggingface.co/join), then a token of type *Read* at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens). In Colab, save it as a secret (key icon in the left sidebar) named `HF_TOKEN`, and switch on *Notebook access*. Downloads also work without a token, but anonymous downloads are rate-limited, which a whole room on one network can run into.
+3. **API keys.** Optional parts of the notebooks ask chat models through the OpenAI and Anthropic APIs. Workshop participants get short-lived keys in the Teams channel; save them as the Colab secrets `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`. Never paste a key into a notebook cell.
+4. **Teams.** Join the workshop's Teams channel (QR code on the first slides).
+5. **Your own data (optional).** See [Bringing your own data](#bringing-your-own-data).
 
 ## Materials
 
@@ -47,17 +57,41 @@ Coffee breaks 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days ar
 
 To run a notebook, open it and choose **File → Save a copy in Drive**, then work in your copy.
 
+**Reading lists:** [Day 1](reading/day1.md) · [Day 2](reading/day2.md). Each starts with a short list of what to read first, followed by every source cited on the slides and in the notebooks, by topic.
+
 ## Bringing your own data
 
 The notebooks can read your own stimuli from a simple CSV file. See [`data/README.md`](data/README.md) for the format.
 
+## How to cite
+
+If you use or adapt these materials in your research or teaching, please cite them:
+
+> Bylinina, L. (2026). *Language models for linguistic research: Materials for the C-LaBL Methods Workshop*. UiT The Arctic University of Norway, Tromsø, 20 and 22 October 2026. https://github.com/bylinina/c-labl-methods-workshop
+
+```bibtex
+@misc{bylinina2026lmling,
+  author       = {Bylinina, Lisa},
+  title        = {Language models for linguistic research: Materials for the {C-LaBL} Methods Workshop},
+  year         = {2026},
+  howpublished = {\url{https://github.com/bylinina/c-labl-methods-workshop}},
+  note         = {Course materials. UiT The Arctic University of Norway, Troms{\o}, 20 and 22 October 2026}
+}
+```
+
+GitHub's **Cite this repository** button (from [`CITATION.cff`](CITATION.cff)) gives the same entry in APA and BibTeX. Please also cite the papers, datasets and tools each notebook uses: they are listed at the end of every notebook and in the reading lists.
+
+## Contact
+
+Lisa Bylinina · [bylinina.github.io](https://bylinina.github.io) · bylinina@gmail.com
+
 ## Repository structure
 
 ```
-notebooks/   Colab notebooks (added as they are developed)
-r/           R scripts for analysing the CSV files the notebooks produce
-data/        small example datasets and the stimulus file format
-slides/      slides (PDF)
+README.md      this page: schedule, setup, links to slides and notebooks, how to cite
+CITATION.cff   citation metadata (GitHub's "Cite this repository")
+reading/       reading lists, one per day
+data/          the stimulus file format, with a small example file
 ```
 
 <!-- TODO: license (e.g. CC BY 4.0 for slides and text, MIT for code) -->
