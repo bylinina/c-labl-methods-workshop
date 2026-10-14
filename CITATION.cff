@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use or adapt these materials, please cite them as below."
+title: "Language models for linguistic research: Materials for the C-LaBL Methods Workshop"
+type: software
+authors:
+  - family-names: Bylinina
+    given-names: Lisa
+    affiliation: Utrecht University
+    email: bylinina@gmail.com
+    website: "https://bylinina.github.io"
+date-released: 2026-10-20
+url: "https://github.com/bylinina/c-labl-methods-workshop"
+repository-code: "https://github.com/bylinina/c-labl-methods-workshop"
+abstract: >-
+  Slides, Google Colab notebooks and reading lists for a two-day methods workshop
+  on language models for linguistic and psycholinguistic research: transformer
+  anatomy, surprisal, training and evaluation, controlled rearing of small models,
+  and interpretability (entropy, attribution, probing, representational similarity).
+keywords:
+  - language models
+  - psycholinguistics
+  - surprisal
+  - controlled rearing
+  - interpretability
+  - multilinguality
+preferred-citation:
+  type: generic
+  title: "Language models for linguistic research: Materials for the C-LaBL Methods Workshop"
+  authors:
+    - family-names: Bylinina
+      given-names: Lisa
+      affiliation: Utrecht University
+  year: 2026
+  url: "https://github.com/bylinina/c-labl-methods-workshop"
+  notes: "Course materials. C-LaBL Methods Workshop, UiT The Arctic University of Norway, Tromsø, 20 and 22 October 2026."
