@@ -43,7 +43,7 @@ Nothing needs installing: everything runs in the browser, in Google Colab.
 1. **Google account.** Sign in at [colab.research.google.com](https://colab.research.google.com). A personal Google account works best; a university one only if your university allows Colab.
 2. **Hugging Face account and token.** Create a free account at [huggingface.co/join](https://huggingface.co/join), then a token of type *Read* at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens). In Colab, save it as a secret (key icon in the left sidebar) named `HF_TOKEN`, and switch on *Notebook access*. Downloads also work without a token, but anonymous downloads are rate-limited, which a whole room on one network can run into.
 3. **API keys.** Optional parts of the notebooks ask chat models through the OpenAI and Anthropic APIs. Workshop participants get short-lived keys in the Teams channel; save them as the Colab secrets `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`. Never paste a key into a notebook cell.
-4. **Teams.** Join the workshop's Teams channel (QR code on the first slides).
+4. **Teams.** Join the workshop's Teams channel: links, keys and questions go there.
 5. **Your own data (optional).** See [Bringing your own data](#bringing-your-own-data).
 
 ## Materials
