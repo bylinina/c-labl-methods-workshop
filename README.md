@@ -28,7 +28,7 @@ The practical sessions run in the browser, with no local installation, and are s
 | Time | Session |
 |---|---|
 | 10:00–10:50 | **Lecture:** Models as learners: input, controlled rearing, grounding |
-| 11:05–12:00 | **Practical:** Controlled rearing with tiny models: train on changed word order; Japanese, Arabic or Norwegian first, then English |
+| 11:05–12:00 | **Practical:** Controlled rearing with tiny models: word order, first language |
 | 13:00–13:50 | **Lecture:** Opening the black box: entropy, attribution, probing, similarity |
 | 14:05–15:00 | **Practical:** Entropy, attribution, probing, representational similarity |
 
