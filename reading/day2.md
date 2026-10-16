@@ -6,7 +6,7 @@
 
 **Afternoon:** opening the black box: entropy, attribution, probing and intervening, similarity across languages and the logit lens; practical session 4, the same methods hands-on.
 
-This list has every source cited on the Day 2 slides and in the two Day 2 notebooks, grouped by topic. Start with the first section; the rest is there to look things up. Studies with human participants that the slides cite are listed separately at the end of each half-day.
+This list has all sources cited on the Day 2 slides and in the two Day 2 notebooks, grouped by topic. Start with the first section; the rest is there to look things up. Studies with human participants that the slides cite are listed separately at the end of each half-day.
 
 ## Start here
 
@@ -95,7 +95,7 @@ This list has every source cited on the Day 2 slides and in the two Day 2 notebo
 - Tokenizers compared: GPT-2, Radford et al. (2019), [pdf](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf); Qwen2.5, Qwen Team (2024), [link](https://arxiv.org/abs/2412.15115); XLM-R, Conneau et al. (2020). Unsupervised cross-lingual representation learning at scale. *ACL*, [link](https://aclanthology.org/2020.acl-main.747/); bytes, Xue et al. (2022). ByT5. *TACL*, [link](https://aclanthology.org/2022.tacl-1.17/)
 - Warstadt et al. (2020). BLiMP: The benchmark of linguistic minimal pairs for English. *TACL* 8. [link](https://aclanthology.org/2020.tacl-1.25/)
 
-### Studies with people cited this morning
+### Studies with people (and chickens) cited this morning
 
 - Gilkerson et al. (2017). Mapping the early language environment using all-day recordings and automated analysis. *American Journal of Speech-Language Pathology* 26(2). [doi](https://doi.org/10.1044/2016_AJSLP-15-0169) (≈ 100M words by age 13, via BabyLM)
 - Wood (2013). Newborn chickens generate invariant object representations at the onset of visual object experience. *PNAS* 110(34).
@@ -195,11 +195,3 @@ Design 3, one grammatical category:
 
 - Giulianelli, Harding, Mohnert, Hupkes & Zuidema (2018). Under the hood: Using diagnostic classifiers to investigate and improve how language models track agreement information. *BlackboxNLP*. [link](https://aclanthology.org/W18-5426/). An early probe-then-intervene study, on subject–verb agreement.
 - Jurafsky & Martin. *Speech and Language Processing* (3rd ed. draft), [Ch. 10](https://web.stanford.edu/~jurafsky/slp3/10.pdf), on interpretability.
-
-## Citing these materials
-
-If you use or adapt the workshop materials, please cite them as:
-
-Bylinina, L. (2026). *Language models for linguistic research: Materials for the C-LaBL Methods Workshop*. UiT The Arctic University of Norway, Tromsø, 20 and 22 October 2026. https://github.com/bylinina/c-labl-methods-workshop
-
-A BibTeX entry is in the [README](../README.md#how-to-cite). Please also cite the papers, datasets and tools you use from this list.
