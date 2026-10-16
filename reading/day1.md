@@ -2,9 +2,9 @@
 
 *Language models for linguistic research* · C-LaBL Methods Workshop, UiT The Arctic University of Norway, Tromsø · [Lisa Bylinina](https://bylinina.github.io)
 
-**Morning:** LLM anatomy and computation (tokens, probabilities, attention, decoding); surprisal for real data.
+**Morning:** LLM anatomy and computation (tokens, probabilities, attention, decoding) and surprisal; practical session 1, *Language models up close*.
 
-**Afternoon:** training and post-training (objective, loss, data and scale); evaluation; training data and generalisation.
+**Afternoon:** training and post-training (objective, loss, data and scale), evaluation, training data and generalisation; practical session 2, *Watch a model learn, then test it*.
 
 This list has every source cited on the Day 1 slides and in the two Day 1 notebooks, grouped by topic. Start with the first section; the rest is there to look things up.
 
@@ -58,7 +58,7 @@ This list has every source cited on the Day 1 slides and in the two Day 1 notebo
 - Oh & Schuler (2024). Leading whitespaces of language models' subword vocabulary pose a confound for calculating word probabilities. *EMNLP*. [link](https://aclanthology.org/2024.emnlp-main.202/)
 - Hu & Levy (2023): see *Start here*.
 
-### Practical session 1: data, models and tools
+### Practical session 1 · *Language models up close*: data, models and tools
 
 Structural priming (section 4c):
 
@@ -135,7 +135,7 @@ Models:
 - Ruis et al. (2024). Procedural knowledge in pretraining drives reasoning in large language models. *arXiv*. [link](https://arxiv.org/abs/2411.12580)
 - Hupkes et al. (2023). A taxonomy and review of generalization research in NLP. *Nature Machine Intelligence* 5. [link](https://arxiv.org/abs/2210.03050) · [genbench.org](https://genbench.org/)
 
-### Practical session 2: data, models and tools
+### Practical session 2 · *Watch a model learn, then test it*: data, models and tools
 
 - TinyStories: Eldan & Li (2023). TinyStories: How small can language models be and still speak coherent English? *arXiv*. [link](https://arxiv.org/abs/2305.07759) · data: [roneneldan/TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories)
 - Our trained tiny GPT, for runs without a GPU: [bylin/clabl-tiny-gpt](https://huggingface.co/bylin/clabl-tiny-gpt)

@@ -4,6 +4,8 @@ The notebooks load their data from the web, not from this folder:
 
 - **Day 1 morning (4f):** the [de Varda, Marelli & Amenta (2024)](https://doi.org/10.3758/s13428-023-02261-8) file from [GitHub](https://github.com/Andrea-de-Varda/prediction-resource), or the eye-tracking file of the [Provo Corpus](https://osf.io/sjefs/) ([Luke & Christianson 2018](https://doi.org/10.3758/s13428-017-0908-4)) from OSF.
 - **Day 1 afternoon:** [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) to train the tiny GPT; our trained checkpoints ([bylin/clabl-tiny-gpt](https://huggingface.co/bylin/clabl-tiny-gpt)) if you have no GPU; [Pythia](https://huggingface.co/EleutherAI/pythia-70m) checkpoints; phrase counts in the Pile through [infini-gram](https://infini-gram.io/).
+- **Day 2 morning:** TinyStories in VO and OV order, in four languages, with VO/OV test pairs ([bylin/clabl-tinystories-wordorder](https://huggingface.co/datasets/bylin/clabl-tinystories-wordorder)); the byte-level models trained on them, with all checkpoints and scores ([bylin/clabl-byte-gpt](https://huggingface.co/bylin/clabl-byte-gpt)); parses from [jennhu/tinystories_parsed](https://huggingface.co/datasets/jennhu/tinystories_parsed); [Grambank](https://grambank.clld.org/) 1.0.3.
+- **Day 2 afternoon:** the de Varda et al. (2024) file again, with the full cloze answers; the 50 parallel stories of the morning (`nb_sample`); word lists from [NorthEuraLex](https://github.com/lexibank/northeuralex) 0.9 with semantic fields from [Concepticon](https://concepticon.clld.org/).
 
 This folder has one small file, [`example_stimuli.csv`](example_stimuli.csv), in the format described below.
 
