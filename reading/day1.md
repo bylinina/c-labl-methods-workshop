@@ -147,11 +147,3 @@ Models:
 ## More to read
 
 - Singh et al. (2025). The leaderboard illusion. *NeurIPS Datasets and Benchmarks*. [link](https://proceedings.neurips.cc/paper_files/paper/2025/file/70a93f260a51123b3c0e33ecd1b4de97-Paper-Datasets_and_Benchmarks_Track.pdf). An audit of Chatbot Arena: why a leaderboard rank is weak evidence of what a model can do.
-
-## Citing these materials
-
-If you use or adapt the workshop materials, please cite them as:
-
-Bylinina, L. (2026). *Language models for linguistic research: Materials for the C-LaBL Methods Workshop*. UiT The Arctic University of Norway, Tromsø, 20 and 22 October 2026. https://github.com/bylinina/c-labl-methods-workshop
-
-A BibTeX entry is in the [README](../README.md#how-to-cite). Please also cite the papers, datasets and tools you use from this list.
