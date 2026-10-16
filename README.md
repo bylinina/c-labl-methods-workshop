@@ -1,12 +1,11 @@
 # Language models for linguistic research
 
-**C-LaBL Methods Workshop** · [Center for Language, Brain & Learning (C-LaBL)](https://en.uit.no/research/clabl) and its [AcqVA Lab](https://site.uit.no/acqvalab/)  
-**UiT The Arctic University of Norway, Tromsø** · Tuesday 20 and Thursday 22 October 2026  
+**C-LaBL Methods Workshop** · [Center for Language, Brain & Learning (C-LaBL)](https://en.uit.no/research/clabl), **UiT The Arctic University of Norway, Tromsø** · Tuesday 20 and Thursday 22 October 2026  
 Taught by [Lisa Bylinina](https://bylinina.github.io) (Utrecht University)
 
 Slides, Google Colab notebooks and reading lists for a two-day workshop on language models in linguistic research: what these models are and how they learn, which measures you can take from them (surprisal, entropy, minimal-pair preferences, attributions, similarity of hidden states), how to train small models on controlled input, and how to look inside a model.
 
-**Who it is for.** Researchers and students in psycholinguistics, theoretical linguistics, language acquisition and multilingualism, and neighbouring fields such as psychology, who want to use language models in their own work. No background in machine learning is assumed, and you don't need to know Python: every notebook runs in the browser and is filled in through forms. The first practical also comes in an R version.
+**Who it is for.** Researchers and students in psycholinguistics, theoretical linguistics, language acquisition and multilingualism, and neighbouring fields such as psychology, who want to use language models in their own work. No background in machine learning is assumed, and you don't need to know Python: all notebooks run in the browser and are filled in through forms. The first practical also comes in an R version.
 
 ## Schedule and materials
 
@@ -32,7 +31,7 @@ Each session is a lecture followed, after coffee, by a hands-on practical in Goo
 
 Coffee 10:50–11:05 and 13:50–14:05; lunch 12:00–13:00. Both days are also streamed on Teams.
 
-**Reading lists:** [Day 1](reading/day1.md) · [Day 2](reading/day2.md). Each starts with a short list of what to read first, followed by every source cited on the slides and in the notebooks, by topic.
+**Reading lists:** [Day 1](reading/day1.md) · [Day 2](reading/day2.md). Each of them starts with a short list of what to read first, followed by every source cited on the slides and in the notebooks, by topic.
 
 ## Before the workshop
 
