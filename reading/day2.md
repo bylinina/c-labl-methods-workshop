@@ -2,9 +2,9 @@
 
 *Language models for linguistic research* · C-LaBL Methods Workshop, UiT The Arctic University of Norway, Tromsø · [Lisa Bylinina](https://bylinina.github.io)
 
-**Morning:** models as learners: input, controlled rearing, multilinguality, grounding; controlled rearing with tiny models.
+**Morning:** models as learners: input, controlled rearing, multilinguality, grounding; practical session 3, *Controlled rearing with tiny models*.
 
-**Afternoon:** opening the black box: entropy, attribution, probing and intervening, representational similarity and the logit lens.
+**Afternoon:** opening the black box: entropy, attribution, probing and intervening, similarity across languages and the logit lens; practical session 4, the same methods hands-on.
 
 This list has every source cited on the Day 2 slides and in the two Day 2 notebooks, grouped by topic. Start with the first section; the rest is there to look things up. Studies with human participants that the slides cite are listed separately at the end of each half-day.
 
@@ -79,9 +79,10 @@ This list has every source cited on the Day 2 slides and in the two Day 2 notebo
 
 - Bylinina (2026). Augustinian BabyLM: What ostensive definition can and cannot teach a small language model. *arXiv*. [link](https://arxiv.org/abs/2609.11870)
 - He, Liu, Gao & Chen (2021). DeBERTa: Decoding-enhanced BERT with disentangled attention. *ICLR*. [link](https://arxiv.org/abs/2006.03654)
+- Lin, Rust, Villar Corrales et al. (2026). EgoBabyVLM: Benchmarking cross-modal learning from naturalistic egocentric video data. *arXiv*. [link](https://arxiv.org/abs/2605.19130) (the VP-Swap test)
 - Augustine, *Confessions* I.8, as quoted in Wittgenstein (1953), *Philosophical Investigations* §1.
 
-### Practical session 3: data, models and tools
+### Practical session 3 · *Controlled rearing with tiny models*: data, models and tools
 
 - Our dataset and models: [bylin/clabl-tinystories-wordorder](https://huggingface.co/datasets/bylin/clabl-tinystories-wordorder) · [bylin/clabl-byte-gpt](https://huggingface.co/bylin/clabl-byte-gpt)
 - Eldan & Li (2023). TinyStories: How small can language models be and still speak coherent English? *arXiv*. [link](https://arxiv.org/abs/2305.07759)
@@ -138,25 +139,50 @@ This list has every source cited on the Day 2 slides and in the two Day 2 notebo
 - Lasri, Pimentel, Lenci, Poibeau & Cotterell (2022). Probing for the usage of grammatical number. *ACL*. [link](https://aclanthology.org/2022.acl-long.603/)
 - Adjective classes in the practical: Dixon (1982). *Where Have All the Adjectives Gone? and Other Essays in Semantics and Syntax*. Mouton · Scontras, Degen & Goodman (2017). Subjectivity predicts adjective ordering preferences. *Open Mind* 1(1). [doi](https://doi.org/10.1162/OPMI_a_00005)
 
-### Similarity across languages, the logit lens, shared circuits
+### The logit lens
 
-- Kriegeskorte, Mur & Bandettini (2008). Representational similarity analysis: Connecting the branches of systems neuroscience. *Frontiers in Systems Neuroscience* 2. [doi](https://doi.org/10.3389/neuro.06.004.2008)
-- Abnar, Beinborn, Choenni & Zuidema (2019). Blackbox meets blackbox: Representational similarity and stability analysis of neural language models and brains. *BlackboxNLP*. [link](https://aclanthology.org/W19-4820/)
-- Skirgård et al. (2023), Grambank: see the morning.
 - nostalgebraist (2020). Interpreting GPT: The logit lens. *LessWrong*. [link](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens)
 - Wendler et al. (2024): see *Start here*.
 - Belrose, Furman, Smith, Halawi, Ostrovsky, McKinney, Biderman & Steinhardt (2023). Eliciting latent predictions from transformers with the tuned lens. *arXiv*. [link](https://arxiv.org/abs/2303.08112)
+
+### Comparing languages inside one model
+
+Design 1, one vector per language:
+
+- Rama, Beinborn & Eger (2020). Probing multilingual BERT for genetic and typological signals. *COLING*. [link](https://aclanthology.org/2020.coling-main.105/)
+- Lin, Hu, Zhang, Martins & Schütze (2024). mPLM-Sim: Better cross-lingual similarity and transfer in multilingual pretrained language models. *Findings of EACL*. [link](https://aclanthology.org/2024.findings-eacl.20/)
+- Östling & Kurfalı (2023). Language embeddings sometimes contain typological generalizations. *Computational Linguistics* 49(4). [link](https://aclanthology.org/2023.cl-4.6/)
+- Chang, Tu & Bergen (2022). The geometry of multilingual language model representations. *EMNLP*. [link](https://aclanthology.org/2022.emnlp-main.9/) (each language around its own mean, and a shared space once the means are removed: practical 4a–4b)
+- To compare with: Skirgård et al. (2023), Grambank, and Littell et al. (2017), URIEL: see the morning.
+
+Design 2, how each language arranges the same concepts:
+
+- Kriegeskorte, Mur & Bandettini (2008). Representational similarity analysis: Connecting the branches of systems neuroscience. *Frontiers in Systems Neuroscience* 2. [doi](https://doi.org/10.3389/neuro.06.004.2008)
+- Thompson, Roberts & Lupyan (2020). Cultural influences on word meanings revealed through large-scale semantic alignment. *Nature Human Behaviour* 4. [doi](https://doi.org/10.1038/s41562-020-0924-8)
+- Beinborn & Choenni (2020). Semantic drift in multilingual representations. *Computational Linguistics* 46(3). [link](https://aclanthology.org/2020.cl-3.2/)
+- Peng & Søgaard (2024). Concept space alignment in multilingual LLMs. *EMNLP*. [link](https://aclanthology.org/2024.emnlp-main.315/)
+
+Design 3, one grammatical category:
+
+- Papadimitriou, Chi, Futrell & Mahowald (2021). Deep subjecthood: Higher-order grammatical features in multilingual BERT. *EACL*. [link](https://aclanthology.org/2021.eacl-main.215/)
+- Brinkmann, Wendler, Bartelt & Mueller (2025). Large language models share representations of latent grammatical concepts across typologically diverse languages. *NAACL*. [link](https://aclanthology.org/2025.naacl-long.312/)
 - Gidi, Almudévar, Park, Saphra & Marxer (2026). Shared circuits for shared grammar: Tracing subject-verb agreement across languages. *COLM*. [link](https://arxiv.org/abs/2608.18545)
+
+### Shared circuits: activation patching
+
 - Vig, Gehrmann, Belinkov, Qian, Nevo, Singer & Shieber (2020). Investigating gender bias in language models using causal mediation analysis. *NeurIPS*. [link](https://arxiv.org/abs/2004.12265)
 - Meng, Bau, Andonian & Belinkov (2022). Locating and editing factual associations in GPT. *NeurIPS*. [link](https://arxiv.org/abs/2202.05262)
 - Heimersheim & Nanda (2024). How to use and interpret activation patching. *arXiv*. [link](https://arxiv.org/abs/2404.15255)
+- Gidi et al. (2026): see above.
 
-### Practical session 4: data, models and tools
+### Practical session 4 · *Opening the black box*: data, models and tools
 
 - nnsight: Fiotto-Kaufman et al. (2025). NNsight and NDIF: Democratizing access to open-weight foundation model internals. *ICLR*. [link](https://arxiv.org/abs/2407.14561) · tutorials (activation patching, attribution patching, logit lens and more): [nnsight.net](https://nnsight.net)
 - Model: [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B); Qwen Team (2024). Qwen2.5 technical report. *arXiv*. [link](https://arxiv.org/abs/2412.15115)
 - Data for entropy: de Varda, Marelli & Amenta (2024). Cloze probability, predictability ratings, and computational estimates for 205 English sentences, aligned with existing EEG and reading time data. *Behavior Research Methods* 56. [doi](https://doi.org/10.3758/s13428-023-02261-8) · [github.com/Andrea-de-Varda/prediction-resource](https://github.com/Andrea-de-Varda/prediction-resource), with the reading times of Frank, Monsalve, Thompson & Vigliocco (2013), *Behavior Research Methods* 45, [doi](https://doi.org/10.3758/s13428-012-0313-y), and the EEG of Frank et al. (2015), above
-- Data for similarity: the 50 parallel stories of this morning (`nb_sample` in [bylin/clabl-tinystories-wordorder](https://huggingface.co/datasets/bylin/clabl-tinystories-wordorder)); Grambank 1.0.3
+- Data for similarity: the 50 parallel stories of this morning (`nb_sample` in [bylin/clabl-tinystories-wordorder](https://huggingface.co/datasets/bylin/clabl-tinystories-wordorder))
+- Word lists for design 2: Dellert, Daneyko, Münch, Ladygina, Buch, Clarius, Grigorjew, Balabel, Boga, Baysarova, Mühlenbernd, Wahle & Jäger (2020). NorthEuraLex: A wide-coverage lexical database of Northern Eurasia. *Language Resources and Evaluation* 54. [doi](https://doi.org/10.1007/s10579-019-09480-6) · version 0.9 in CLDF: [github.com/lexibank/northeuralex](https://github.com/lexibank/northeuralex)
+- Semantic fields: List, Cysouw & Forkel (2016). Concepticon: A resource for the linking of concept lists. *LREC*. [link](https://aclanthology.org/L16-1379/) · [concepticon.clld.org](https://concepticon.clld.org/)
 
 ### Studies with people cited this afternoon
 
